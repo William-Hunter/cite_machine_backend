@@ -1,0 +1,19 @@
+
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 8099
+
+
+logging:
+  config: classpath:logback.xml
+  level:
+    com:
+      office: debug
+
+
+
+
+debug: true
+
+
